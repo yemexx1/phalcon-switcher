@@ -39,13 +39,11 @@ else
 fi
 
 if [ -d cphalcon ]; then
-    cd cphalcon
-    git fetch -k origin "refs/tags/${version_to_switch_to}"
-    git checkout "${version_to_switch_to}"
-else
-    git clone -b "${version_to_switch_to}" --single-branch --depth 1 https://github.com/phalcon/cphalcon.git
-    cd cphalcon
+    rm -r cphalcon
 fi
+
+git clone -b "${version_to_switch_to}" --single-branch --depth 1 https://github.com/phalcon/cphalcon.git
+cd cphalcon
 
 echo "Source download complete. Starting build..."
 cd build
