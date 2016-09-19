@@ -9,7 +9,9 @@ Phalcon Version Switcher allows you to switch between [Phalcon](https://phalconp
 
 
 ## Quick Installation
-`curl -L https://raw.githubusercontent.com/yemexx1/phalcon-switcher/master/phalcon-switcher.sh > /usr/local/bin/xdebug-toggle`
+```
+curl -L https://raw.githubusercontent.com/yemexx1/phalcon-switcher/master/phalcon-switcher.sh > /usr/local/bin/xdebug-toggle
+```
 
 ##Installation with Clone
 ```
