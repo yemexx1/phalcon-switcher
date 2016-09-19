@@ -8,7 +8,10 @@ Phalcon Version Switcher allows you to switch between [Phalcon](https://phalconp
 > and [Phalcon2 Installation guide](https://medium.com/@goke_epapa/how-to-install-phalcon-version-2-87ad9a474eb1#.3tcsmts9o) by [@goke_epapa](https://github.com/goke-epapa)
 
 
-## Install
+## Quick Installation
+`curl -L https://raw.githubusercontent.com/yemexx1/phalcon-switcher/master/phalcon-switcher.sh > /usr/local/bin/xdebug-toggle`
+
+##Installation with Clone
 ```
 git clone https://github.com/yemexx1/phalcon-switcher.git
 cd phalcon-switcher
