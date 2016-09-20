@@ -38,12 +38,13 @@ else
     exit
 fi
 
-if [ -d cphalcon ]; then
-    rm -r cphalcon
+if [ -d "/usr/local/bin/cphalcon/cphalcon-${version_to_switch_to}" ]; then
+    echo "Source already exists... "
+else
+    git clone -b "${version_to_switch_to}" --single-branch --depth 1 https://github.com/phalcon/cphalcon.git "/usr/local/bin/cphalcon/cphalcon-${version_to_switch_to}"
 fi
 
-git clone -b "${version_to_switch_to}" --single-branch --depth 1 https://github.com/phalcon/cphalcon.git
-cd cphalcon
+cd "/usr/local/bin/cphalcon/cphalcon-${version_to_switch_to}"
 
 echo "Source download complete. Starting build..."
 cd build
