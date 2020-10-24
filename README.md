@@ -26,7 +26,7 @@ sudo ln -s `pwd`/phalcon-switcher.sh /usr/local/bin/phalcon-switcher
 
 ## Change log
 
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
 
 ## Contributing
